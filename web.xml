@@ -1,0 +1,13 @@
+<web-app>
+
+    <servlet>
+        <servlet-name>MiServlet</servlet-name>
+        <servlet-class>MiServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>MiServlet</servlet-name>
+        <url-pattern>/mi</url-pattern>
+    </servlet-mapping>
+
+</web-app>

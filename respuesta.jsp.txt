@@ -1,0 +1,18 @@
+<%@ page contentType="text/html;charset=UTF-8" %>
+<html>
+<body>
+
+<h1>Respuesta del Sistema - Arepas La Rolita</h1>
+
+<%
+    String nombre = request.getParameter("nombre");
+
+    if (nombre != null) {
+        out.println("<p>Hola " + nombre + ", tu pedido fue registrado correctamente.</p>");
+    } else {
+        out.println("<p>No se recibió ningún dato.</p>");
+    }
+%>
+
+</body>
+</html>
